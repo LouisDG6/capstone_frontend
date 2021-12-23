@@ -12,16 +12,15 @@ const Bakie = ({ bakie }) => {
     width: "80%",
   };
 
-  return (
-    <div style={div}>
+  return <> 
       <div className="bakieComponent">
       <Link to={`/bigmomscakies/${bakie.id}`}>
         <h1>{bakie.name}</h1>
       </Link>
-      <h2>{bakie.details}</h2>
+      
       </div>
-    </div>
-  );
+    </>
+  ;
 };
 
 export default Bakie;
