@@ -35,7 +35,7 @@ function App() {
 
   const navigate = useNavigate();
 
-  const url = "https://lgcapstonebackend.herokuapp.com/bigmomscakies";
+  const url = "https://lgcapstonebackend.herokuapp.com/bigmomscakies/";
 
   // state to hold list of todos
   const [bakies, setBakies] = useState([]);
